@@ -1,0 +1,204 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 2px #e2e2e2;
+  background-color: rgb(235, 235, 235);
+}
+
+#header > .logo {
+  width: 40vw;
+  height: 100%;
+}
+
+#header > .logo > img {
+  max-width: 300px;
+}
+
+#header > .navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 60vw;
+}
+
+#header > .navbar li a {
+  display: block;
+  padding: 0.5rem 1.5rem;
+}
+
+#page-wrapper {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 70%;
+}
+
+#page-wrapper .hero {
+  text-align: center;
+}
+
+#page-wrapper .hero .title {
+  letter-spacing: 0.1rem;
+}
+
+#page-wrapper .hero .email {
+  width: 300px;
+  padding: 0.5rem;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+#features .grid {
+  display: flex;
+  align-items: center;
+}
+
+#features .grid .icon {
+  flex-basis: 10%;
+  color: #ffc400;
+}
+
+#features .grid .desc {
+  flex-basis: 90%;
+}
+
+#how-it-works {
+  text-align: center;
+}
+
+#how-it-works .video {
+  border: none;
+}
+
+#pricing {
+  display: flex;
+}
+
+#pricing .card {
+  flex-grow: 1;
+  background-color: rgb(250, 250, 250);
+  margin: 0.5rem;
+  text-align: center;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#pricing .card-header {
+  background-color: #e2e2e2;
+  padding: 0.7rem;
+  font-weight: bold;
+}
+
+#pricing .card-body {
+  font-size: 1.1rem;
+}
+
+#pricing .card-body li {
+  margin-top: 0.25rem;
+}
+
+#pricing .card-footer {
+  padding: 1rem;
+}
+
+.btn-started {
+  background-color: #f3c19f;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-select {
+  padding: 0.7rem 2rem;
+  background-color: #ffc400;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#footer {
+  margin-top: 50px;
+  min-height: 50px;
+  background-color: rgb(250, 250, 250);
+  text-align: right;
+  padding: 1rem;
+}
+
+#footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer ul li a {
+  padding: 1rem 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #page-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    flex-direction: column;
+  }
+
+  #header > .navbar {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #features .grid .icon {
+    flex-basis: 20%;
+  }
+
+  #features .grid .desc {
+    flex-basis: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #features .grid {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #how-it-works .video {
+    width: 100%;
+  }
+
+  #pricing {
+    flex-direction: column;
+  }
+}
