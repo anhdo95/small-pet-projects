@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Survey Form</h1>
+  <div class="container">
+    <p>
+      Let us know how we can improve our products
+    </p>
+    <form>
+      <div class="row">
+        <div class="label">
+          <label for="name">* Name:</label>
+        </div>
+        <div class="right-tab">
+          <input class="form-control" type="text" placeholder="Enter your name" required autofocus />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="email">* Email: </label>
+        </div>
+        <div class="right-tab">
+          <input class="form-control" type="email" placeholder="Enter your email" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="email">* Age: </label>
+        </div>
+        <div class="right-tab">
+          <input class="form-control" type="number" placeholder="Age" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="currentPos">* Which option best describes your current role:
+          </label>
+        </div>
+        <div class="right-tab">
+          <select class="form-control" required>
+            <option value="" selected disabled>Select an option</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="userRating">How likely is that you would recommend our products to a
+            friend?</label>
+        </div>
+        <div class="right-tab">
+          <li class="radio">
+            <label><input type="radio" name="userRating" /> Definitely</label>
+          </li>
+          <li class="radio">
+            <label><input type="radio" name="userRating" /> Maybe</label>
+          </li>
+          <li class="radio">
+            <label><input type="radio" name="userRating" /> Not sure</label>
+          </li>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="currentPos">What do you like most in our products:
+          </label>
+        </div>
+        <div class="right-tab">
+          <select class="form-control">
+            <option value="" selected disabled>Select an option</option>
+            <option value="Student">Quality</option>
+            <option value="Full Time Job">Greatly reduced consts</option>
+            <option value="Prefer not to say">Better ergonomic features</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label id="email-label" for="userRating">
+            Things that should be improved in the future (Check all that
+            apply):</label>
+        </div>
+        <div class="right-tab user-rating">
+          <li class="radio">
+            <label><input type="checkbox" name="userRating" />
+              Intercultural</label>
+          </li>
+          <li class="checkbox">
+            <label><input type="checkbox" name="userRating" /> Pricing</label>
+          </li>
+          <li class="checkbox">
+            <label><input type="checkbox" name="userRating" /> High quality</label>
+          </li>
+          <li class="checkbox">
+            <label><input type="checkbox" name="userRating" /> Delivering
+              process</label>
+          </li>
+          <li class="checkbox">
+            <label><input type="checkbox" name="userRating" /> Oversea
+              collaboration</label>
+          </li>
+          <li class="checkbox">
+            <label><input type="checkbox" name="userRating" /> Additional
+              products</label>
+          </li>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="label">
+          <label id="email-label" for="userRating">
+            Any Comments or Suggestions?</label>
+        </div>
+        <div class="right-tab">
+          <textarea class="form-control" cols="40" rows="4" placeholder="Enter your comment here..."></textarea>
+        </div>
+      </div>
+      <div class="mt-4"><button class="btn-submit" type="submit">Submit</button></div>
+    </form>
+  </div>
+</body>
+
+</html>
