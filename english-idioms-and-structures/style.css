@@ -1,0 +1,99 @@
+html,
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #4d4e53;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100%;
+  border-right: solid;
+  border-color: #00161666;
+}
+
+#navbar header {
+  margin: 0.5rem;
+  color: #222;
+  text-align: center;
+}
+
+#navbar ul {
+  height: 90%;
+  padding: 0;
+  overflow: hidden auto;
+}
+
+#navbar ul li {
+  border-top: 1px solid #afafaf;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 0.5rem 1.5rem;
+}
+
+#content {
+  margin-left: 350px;
+  min-height: 90vh;
+  padding: 1rem;
+}
+
+#content .idiom .meaning {
+  margin-left: 1rem;
+}
+
+#content .idiom .examples {
+  margin-left: 0;
+  font-style: italic;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 1rem 0;
+  color: #f2f2f2;
+  background-color: rgba(50, 50, 50, 0.9);
+  text-align: right;
+  overflow-y: auto;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a7a7a7;
+}
+
+
