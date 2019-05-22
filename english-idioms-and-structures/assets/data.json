@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Can't stand + V-ing",
+    "meaning": "To not be able to suffer/tolerant something",
+    "examples": [
+      "I can't stand looking at drowsy people in my office"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Can't help + V-ing",
+    "meaning": "To not be able to control/stop something",
+    "examples": [
+      "I can't help thinking about the prestigious/reputable achievement"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Work out",
+    "meaning": "To train the body by physical exercise",
+    "examples": [
+      "Working out at a gym or swim twice a week is necessary for me",
+      "He has many health issues so he choose to work out every day"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Wear out",
+    "meaning": "To make yourself/somebody feel very tired",
+    "examples": [
+      "The past few days had really worn him out",
+      "We extremely wore out because newcomers didn't integrate with our working tradition"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Drop off",
+    "meaning": "To fall into a light sleep",
+    "examples": [
+      "I dropped off and missed the end of the movie"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Get round to",
+    "meaning": "To find the time to do something",
+    "examples": [
+      "It takes hours and hours just to get round to do this work"
+    ]
+  }
+]

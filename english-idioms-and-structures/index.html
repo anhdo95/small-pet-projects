@@ -10,103 +10,36 @@
 </head>
 
 <body>
+  <!-- Templates -->
+  <template id="menu-item-template">
+    <li><a href="#{{ name }}">{{ name }}</a></li>
+  </template>
+
+  <template id="idiom-section-template">
+    <section class="idiom">
+      <dl>
+        <dt>
+          <h3>{{ name }}</h3>
+        </dt>
+        <dd class="meaning">{{ meaning }}</dd>
+        <ol class="examples">{{ examples }}</ol>
+      </dl>
+    </section>
+  </template>
+
+  <!-- UI -->
   <nav id="navbar">
     <header>
       <h1>Idioms and Structures</h1>
     </header>
-    <ul>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Wear out</a></li>
-      <li><a href="#">Drop off</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Work out</a></li>
-      <li><a href="#">Can't stand + V-ing</a></li>
-      <li><a href="#">Can't help + V-ing</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-      <li><a href="#">Get round to</a></li>
-    </ul>
+    <ul id="menu"></ul>
   </nav>
   <main id="content">
     <form id="filter-form">
       <input id="search-box" type="text" placeholder="Please enter an idiom or structure ...">
     </form>
 
-    <section class="idiom">
-      <dl>
-        <dt><h3>Work out</h3></dt>
-        <dd class="meaning">To train the body by physical exercise</dd>
-        <ol class="examples">
-          <li>Working out at a gym or swim twice a week is necessary for me</li>
-          <li>He has many health issues so he choose to work out every day</li>
-        </ol>
-      </dl>
-    </section>
-    <section class="idiom">
-      <dl>
-        <dt><h3>Wear out</h3></dt>
-        <dd class="meaning">To make yourself/somebody feel very tired</dd>
-        <ol class="examples">
-          <li>The past few days had really worn him out</li>
-          <li>We extremely wore out because newcomers didn't integrate with our working tradition</li>
-        </ol>
-      </dl>
-    </section>
-    <section class="idiom">
-      <dl>
-        <dt><h3>Drop off</h3></dt>
-        <dd class="meaning">To fall into a light sleep</dd>
-        <ol class="examples">
-          <li>I dropped off and missed the end of the movie</li>
-        </ol>
-      </dl>
-    </section>
-    <section class="idiom">
-      <dl>
-        <dt><h3>Can't stand + V-ing</h3></dt>
-        <dd class="meaning">To not be able to suffer/tolerant something</dd>
-        <ol class="examples">
-          <li>I can't stand looking at drowsy people in my office</li>
-        </ol>
-      </dl>
-    </section>
-    <section class="idiom">
-      <dl>
-        <dt><h3>Can't help + V-ing</h3></dt>
-        <dd class="meaning">To not be able to control/stop something</dd>
-        <ol class="examples">
-          <li>I can't help thinking about the prestigious/reputable achievement</li>
-        </ol>
-      </dl>
-    </section>
-    <section class="idiom">
-      <dl>
-        <dt><h3>Get round to</h3></dt>
-        <dd class="meaning">To find the time to do something</dd>
-        <ol class="examples">
-          <li>It takes hours and hours just to get round to do this work</li>
-        </ol>
-      </dl>
-    </section>
-
-
-    <input type="file" id="excelfile" />
-    <input type="button" id="viewfile" value="Export To Table" onclick="ExportToTable()" />
-       <br />
-       <br />
-    <table id="exceltable">
- </table>
+    <section id="sections"></section>
 
   </main>
 
@@ -116,10 +49,7 @@
     <p>&copy; All rights reserved by community</p>
   </footer>
 
-  <script src="libs/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.core.min.js"></script>
-
+  <script src="libs/jquery-3.4.1.min.js"></script>
   <script src="main.js"></script>
 </body>
 
