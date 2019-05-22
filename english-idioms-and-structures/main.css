@@ -56,6 +56,15 @@ a {
   padding: 1rem;
 }
 
+#filter-form {
+  text-align: center;
+}
+
+#filter-form  #search-box {
+  padding: 0.5rem 1rem;
+  min-width: 20rem;
+}
+
 #content .idiom .meaning {
   margin-left: 1rem;
 }
@@ -73,26 +82,27 @@ a {
   padding: 1rem 1rem 0;
   color: #f2f2f2;
   background-color: rgba(50, 50, 50, 0.9);
+  font-size: 0.8rem;
   text-align: right;
   overflow-y: auto;
 }
 
-/* Custom Scrollbar */
-::-webkit-scrollbar {
+/* Custom Navigation's Scrollbar */
+#navbar ul::-webkit-scrollbar {
   width: 5px;
 }
 
-::-webkit-scrollbar-track {
+#navbar ul::-webkit-scrollbar-track {
   background-color: #dadada;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+#navbar ul::-webkit-scrollbar-thumb {
   background-color: #c0c0c0;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+#navbar ul::-webkit-scrollbar-thumb {
   background-color: #a7a7a7;
 }
 
