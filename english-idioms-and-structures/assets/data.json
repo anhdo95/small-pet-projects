@@ -48,5 +48,30 @@
     "examples": [
       "It takes hours and hours just to get round to do this work"
     ]
+  },
+  {
+    "id": 7,
+    "name": "Pile on",
+    "meaning": "(Espectically for a person's weight) to increase quickly",
+    "examples": [
+      "If you don't want to pile on, don't sleep abnormally"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wake something up",
+    "meaning": "To become conscious after sleeping",
+    "examples": [
+      "Please wake me up, I can never hear the alarm when it goes off"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "A clause + as a result of + something",
+    "meaning": "A thing is a result of something",
+    "examples": [
+      "Her arm was pain as a result of burdening on the arms",
+      "The flight was delayed as a result of thick fog"
+    ]
   }
 ]
