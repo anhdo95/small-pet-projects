@@ -7,49 +7,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>English Idioms and Structures Page</title>
   <link rel="stylesheet" href="main.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body>
-  <!-- Templates -->
-  <template id="menu-item-template">
-    <li><a href="#{{ name }}">{{ name }}</a></li>
-  </template>
+  <div id="app">
+    <nav id="navbar">
+      <header>
+        <h1>Idioms and Structures</h1>
+      </header>
+      <ul id="menu">
+        <li v-for="idiom in idioms">
+          <a :href="idiom.id">{{ idiom.name }}</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="content">
+      <form id="filter-form">
+        <input id="search-box" type="text" placeholder="Please enter an idiom or structure ...">
+      </form>
 
-  <template id="idiom-section-template">
-    <section class="idiom">
-      <dl>
-        <dt>
-          <h3>{{ name }}</h3>
-        </dt>
-        <dd class="meaning">{{ meaning }}</dd>
-        <ol class="examples">{{ examples }}</ol>
-      </dl>
-    </section>
-  </template>
+      <section id="sections">
+        <section class="idiom" v-for="idiom in idioms">
+          <dl>
+            <dt>
+              <h3>{{ idiom.name }}</h3>
+            </dt>
+            <dd class="meaning">{{ idiom.meaning }}</dd>
+            <ol class="examples">
+              <li v-for="example in idiom.examples">
+                {{ example }}
+              </li>
+            </ol>
+          </dl>
+        </section>
+      </section>
 
-  <!-- UI -->
-  <nav id="navbar">
-    <header>
-      <h1>Idioms and Structures</h1>
-    </header>
-    <ul id="menu"></ul>
-  </nav>
-  <main id="content">
-    <form id="filter-form">
-      <input id="search-box" type="text" placeholder="Please enter an idiom or structure ...">
-    </form>
+    </main>
 
-    <section id="sections"></section>
+    <footer id="footer">
+      All the idioms, phrasal verbs and essential structures of English are collected while breaking my back periods of
+      time to build up this site.
+      <p>&copy; All rights reserved by community</p>
+    </footer>
+  </div>
 
-  </main>
-
-  <footer id="footer">
-    All the idioms, phrasal verbs and essential structures of English are collected while breaking my back periods of
-    time to build up this site.
-    <p>&copy; All rights reserved by community</p>
-  </footer>
-
-  <script src="libs/jquery-3.4.1.min.js"></script>
   <script src="main.js"></script>
 </body>
 
