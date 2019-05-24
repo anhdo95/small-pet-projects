@@ -21,32 +21,24 @@ a {
 
 #animated-menu {
   position: fixed;
+  left: 300px;
   top: 0;
   z-index: 1000;
   display: inline-block;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+#animated-menu.collapsed {
+  left: 0;
 }
 
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
-  margin: 6px 0;
+  background-color: #ee6745;
+  margin: 2px 0 6px;
   transition: 0.4s;
-}
-
-.change.bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change.bar2 {
-  opacity: 0;
-}
-
-.change.bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 #navbar {
@@ -57,6 +49,12 @@ a {
   height: 100%;
   border-right: solid;
   border-color: #00161666;
+  transition: 0.3s;
+}
+
+#navbar.collapsed {
+  left: -300px;
+  width: 0;
 }
 
 #navbar header {
@@ -88,7 +86,12 @@ a {
 #content {
   margin-left: 300px;
   min-height: 90vh;
-  padding: 1rem;
+  padding: 1rem 3rem;
+  transition: margin-left 0.4s;
+}
+
+#content.collapsed {
+  margin-left: 0;
 }
 
 #filter-form {
@@ -121,6 +124,11 @@ a {
   font-size: 0.8rem;
   text-align: right;
   overflow-y: auto;
+}
+
+#footer.collapsed {
+  left: 0;
+  width: 100%;
 }
 
 /* Custom Navigation's Scrollbar */

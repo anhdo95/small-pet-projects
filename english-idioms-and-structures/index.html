@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>English Idioms and Structures Page</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="assets/libs/vue.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>English Idioms and Structures Page</title>
-  <link rel="stylesheet" href="main.css" />
-  <script src="assets/libs/vue.js"></script>
-</head>
-
-<body>
-  <div id="app">
-    <div id="animated-menu" @click="toggleMenu">
-      <div class="bar1" :class="isOpen ? 'change' : ''"></div>
-      <div class="bar2" :class="isOpen ? 'change' : ''"></div>
-      <div class="bar3" :class="isOpen ? 'change' : ''"></div>
-    </div>
-    <nav id="navbar" v-if="isOpen">
-      <header>
-        <h1>Idioms and Structures</h1>
-      </header>
-      <form id="filter-form">
-          <input @keyup="search" id="search-box" type="text" placeholder="Please enter your criteria...">
+  <body>
+    <div id="app">
+      <div id="animated-menu" :class="toggleClass()" @click="toggleMenu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <nav id="navbar" :class="toggleClass()">
+        <header>
+          <h1>Idioms and Structures</h1>
+        </header>
+        <form id="filter-form">
+          <input
+            @keyup="search"
+            id="search-box"
+            type="text"
+            placeholder="Please enter your criteria..."
+          />
         </form>
-      <ul id="menu">
-        <menu-item
-          v-for="idiom in filteredIdioms"
-          :idiom="idiom"
-          :key="idiom.id"
-        ></menu-item>
-      </ul>
-    </nav>
-    <main id="content">
-      <section id="sections">
-        <idiom-item
-          v-for="idiom in idioms"
-          :idiom="idiom"
-          :key="idiom.id"
-        ></idiom-item>
-      </section>
-    </main>
+        <ul id="menu">
+          <menu-item
+            v-for="idiom in filteredIdioms"
+            :idiom="idiom"
+            :key="idiom.id"
+          ></menu-item>
+        </ul>
+      </nav>
+      <main id="content" :class="toggleClass()">
+        <section id="sections">
+          <idiom-item
+            v-for="idiom in idioms"
+            :idiom="idiom"
+            :key="idiom.id"
+          ></idiom-item>
+        </section>
+      </main>
 
-    <footer-component></footer-component>
-  </div>
+      <footer id="footer" :class="toggleClass()">
+        All the idioms, phrasal verbs and essential structures of English are
+        collected while breaking my back periods of time to build up this site.
+        <p>&copy; All rights reserved by community</p>
+      </footer>
+    </div>
 
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
