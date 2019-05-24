@@ -7,12 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>English Idioms and Structures Page</title>
   <link rel="stylesheet" href="main.css" />
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="assets/libs/vue.js"></script>
 </head>
 
 <body>
   <div id="app">
-    <nav id="navbar">
+    <div id="animated-menu" @click="toggleMenu">
+      <div class="bar1" :class="isOpen ? 'change' : ''"></div>
+      <div class="bar2" :class="isOpen ? 'change' : ''"></div>
+      <div class="bar3" :class="isOpen ? 'change' : ''"></div>
+    </div>
+    <nav id="navbar" v-if="isOpen">
       <header>
         <h1>Idioms and Structures</h1>
       </header>

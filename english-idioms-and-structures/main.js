@@ -72,6 +72,7 @@ var app = new Vue({
   data: {
     idioms: [],
     filteredIdioms: [],
+    isOpen: false
   },
   methods: {
     search: function (event) {
@@ -80,6 +81,9 @@ var app = new Vue({
       this.filteredIdioms = this.idioms.filter(function (idiom) {
         return idiom.name.toLowerCase().includes(keyword);
       })
+    },
+    toggleMenu: function () {
+      this.isOpen = !this.isOpen;
     }
   },
   mounted: function () {
