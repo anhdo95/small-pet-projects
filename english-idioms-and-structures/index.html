@@ -19,15 +19,15 @@
       <nav id="navbar" :class="toggleClass()">
         <header>
           <h1>Idioms and Structures</h1>
+          <form id="filter-form">
+              <input
+                @keyup="search"
+                id="search-box"
+                type="text"
+                placeholder="Please enter your criteria..."
+              />
+            </form>
         </header>
-        <form id="filter-form">
-          <input
-            @keyup="search"
-            id="search-box"
-            type="text"
-            placeholder="Please enter your criteria..."
-          />
-        </form>
         <ul id="menu">
           <menu-item
             v-for="idiom in filteredIdioms"
