@@ -1,0 +1,150 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+}
+
+body,
+ul {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+}
+
+.ad-container {
+  padding: 1rem;
+}
+
+.ad-d-flex {
+  display: -webkit-box;
+  display: -ms-flaexbox;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ad-d-inline-block {
+  display: inline-block;
+}
+
+.ad-justify-content-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ad-align-items-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ad-card {
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+    0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.progress {
+  position: relative;
+  background-color: #d4d4d4;
+  border-radius: 0.5rem;
+}
+
+.progress .bar {
+  color: #fff;
+  background-color: #009688;
+  padding: 0.1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+/* ==================
+  WIDTH
+====================*/
+.ad-w-100 {
+  width: 100%;
+}
+
+.ad-w-60 {
+  width: 60%;
+}
+
+/* ==================
+  BACKGROUND
+====================*/
+.ad-bg-light-gray {
+  background-color: #f2f2f2;
+}
+
+.ad-bg-white {
+  background-color: #fff;
+}
+
+.ad-bg-teal {
+  color: #ffffff;
+  background-color: #009688;
+}
+
+/* ==================
+  TEXT
+====================*/
+.ad-text-teal {
+  color: #009688;
+}
+.ad-text-white {
+  color: #fff;
+}
+
+.ad-heading-letter-spacing {
+  letter-spacing: 0.15rem;
+}
+
+/* ==================
+  MARGIN, PADDING
+====================*/
+.ad-my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ad-mt-0 {
+  margin-top: 0;
+}
+.ad-mt-3 {
+  margin-top: 1rem;
+}
+.ad-ml-2 {
+  margin-left: 0.5rem;
+}
+.ad-ml-3 {
+  margin-left: 1rem;
+}
+.ad-ml-4 {
+  margin-left: 1.5rem;
+}
+
+.ad-p-1 {
+  padding: 0.25rem;
+}
+.ad-p-3 {
+  padding: 1rem;
+}
+.ad-px-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
