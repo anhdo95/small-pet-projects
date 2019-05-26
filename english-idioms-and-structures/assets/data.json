@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Can't help + V-ing",
-    "meaning": "To not be able to control/stop something",
+    "meaning": "To not be able to control/stop/change something",
     "examples": [
       "I can't help thinking about the prestigious/reputable achievement"
     ]
@@ -72,6 +72,96 @@
     "examples": [
       "Her arm was pain as a result of burdening on the arms",
       "The flight was delayed as a result of thick fog"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Be in control (of sth)",
+    "meaning": "To direct or manage an organization, an area or a situation",
+    "examples": [
+      "Who's in control of this place?",
+      "The attendants were instructed to be in control of their patient at all times"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lead from the front",
+    "meaning": "To take an active part in what you're are telling or persuading others to do",
+    "examples": [
+      "If I were in your position, I'd lead from the front in this business to get the best possible results"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Take the trouble + to V-inf",
+    "meaning": "Not afraid to do anything hard",
+    "examples": [
+      "You'll become a more successful person if you take the trouble to carry out whatever is needed"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Break your back",
+    "meaning": "If you work extremely hard, or put a lot of effort into achieving something, you break your back to do it",
+    "examples": [
+      "Parents always break the back for their children to go to school"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Boil the ocean",
+    "meaning": "To waste time on a task or project that is unnecessary, not worth doing or impossible to achieve",
+    "examples": [
+      "Don't try to boil the ocean with your first version of a product",
+      "You recommend that you shouldn't boil the ocean to pay attention the poor markets"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Be lost for words",
+    "meaning": "To be so surprised, confused that you don't know what to say",
+    "examples": [
+      "He was lost for words when he opened the package"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Insist on/upon doing something",
+    "meaning": "To keep doing something, even if it annoys other people, or people think it's not good for you",
+    "examples": [
+      "Life is really simple, but we insist on making it complicated"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Help out",
+    "meaning": "To help somebody, especially in a difficult situation",
+    "examples": [
+      "Staff members always oughta be ready to help out new employees and explain the office procedures"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Sort (something/somebody) out",
+    "meaning": "To deal with somebody's/your own problems successfully",
+    "examples": [
+      "If you can wait a moment, I'll sort it all out for you"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Pull your weight",
+    "meaning": "To work hard as other people in a group",
+    "examples": [
+      "The others had complained that she wasn't pulling her weight"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Spread yourself too thin",
+    "meaning": "To try to do too many things at the same time, so that you cannot give enough time or attention to any of them",
+    "examples": [
+      "I'd been spreading myself too thin so I resigned as a waiter of the restaurant"
     ]
   }
 ]

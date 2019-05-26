@@ -62,7 +62,7 @@ var app = new Vue({
   data: {
     idioms: [],
     filteredIdioms: [],
-    collapsed: false
+    collapsed: true
   },
   methods: {
     search: function(event) {
@@ -77,18 +77,25 @@ var app = new Vue({
     },
     toggleMenu: function() {
       this.collapsed = !this.collapsed;
+    },
+    getIdioms: function() {
+      var EXCEL_PATH_FILE = "./assets/data.json";
+
+      fetch(EXCEL_PATH_FILE)
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(idioms) {
+          app.idioms = idioms;
+          app.filteredIdioms = idioms;
+        });
     }
   },
   mounted: function() {
-    var EXCEL_PATH_FILE = "./assets/data.json";
+    this.getIdioms();
 
-    fetch(EXCEL_PATH_FILE)
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(idioms) {
-        app.idioms = idioms;
-        app.filteredIdioms = idioms;
-      });
+    if (document.body.clientWidth < 700) {
+      this.collapsed = false;
+    }
   }
 });
