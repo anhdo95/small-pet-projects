@@ -1,0 +1,116 @@
+{
+  "summary": "I'm Do Dinh Anh, a full stack developer with 2 years of experience in Javascript technologies (which includes 1 year of experience of .NET development). Currently, I'm responsible for carrying out front-end design of almost projects at work. Besides that, learning new languages and technologies is what I am keen on (I self-taught ReactJS with 2 weeks). In my spare time, I prefer reading books as well. My favorite books are: Clean Code, Secrets of the Javascript Ninja and You don't know JS.",
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "values": [
+        "ReactJS, Angular",
+        "Webpack, Babel, ES6",
+        "jQuery, Twitter Bootstrap",
+        "ASP.NET MVC, Web API, Entity Framework",
+        "RestfulAPI, JSON, XML"
+      ]
+    },
+    {
+      "name": "Databases",
+      "values": [
+        "Microsoft SQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "values": [
+        "Git (Git Shell & Github)",
+        "SVN (TortoiseSVN)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Vietnamese",
+      "proficiency": 100
+    },
+    {
+      "name": "English",
+      "proficiency": 60
+    }
+  ],
+  "workingExperiences": [
+    {
+      "position": "Web Developer / NTQ Solution",
+      "projects": [
+        {
+          "startAt": "Nov 2018",
+          "endAt": "Apr 2019",
+          "projectName": "Serimu Jvideos (Japan)",
+          "projectDescription": "A big watching and selling system in which having a lot of videos. Which can attract creators and makers to come in the site and made viewers enjoy and wind down whenever they want.",
+          "teamSize": "22",
+          "responsibilities": "Meeting with teammates to get clear requirements. Design UI and develop the modules of the system.",
+          "technologies": "ReactJS, Redux, Webpack, SASS, Ant Design"
+        },
+        {
+          "startAt": "Sep 2018",
+          "endAt": "Nov 2018",
+          "projectName": "M-Solutions ARMS (Japan)",
+          "projectDescription": "Dealing with the client side of a fire alarm management system in which the customer be completely in control of problems exactly.",
+          "teamSize": "6",
+          "responsibilities": "Meeting with customers and teammates to report daily works. Develop features and implement unit tests base on requirements.",
+          "technologies": "ReactJS, Redux, Saga, ImmutableJS, Reselect, Jest (Unit testing)"
+        },
+        {
+          "startAt": "May 2018",
+          "endAt": "Sep 2018",
+          "projectName": "M-Solutions Sale System (Japan)",
+          "projectDescription": "Develop a sale and customer management system. Which has highly complicated kind of businesses in Japan.",
+          "teamSize": "20",
+          "responsibilities": "Building screens according to specifications and interact data across sophisticatedly existing services.",
+          "technologies": "Dynamics 365, jQuery, Javascript, CSS, HTML"
+        }
+      ]
+    },
+    {
+      "position": "Web Developer / Powergate Software",
+      "projects": [
+        {
+          "startAt": "Oct 2017",
+          "endAt": "Feb 2018",
+          "projectName": "OneIT Mobile Landing (Australia)",
+          "projectDescription": "Develop a mobile landing system. To better assist customers that can quickly give options and select suitable mobile phones conveniently.",
+          "teamSize": "3",
+          "responsibilities": "Exchanging with customers to get clear requirements. Compose APIs and evolve modules of the system.",
+          "technologies": "Angular 2, HTML, CSS, ASP.NET WebAPI, Microsoft SQL"
+        },
+        {
+          "startAt": "Apr 2017",
+          "endAt": "Oct 2017",
+          "projectName": "OneIT CoventryCRM (Australia)",
+          "projectDescription": "A meeting management website can support you to book customer's appointments with anyone whenever they want, from wherever you are!",
+          "teamSize": "6",
+          "responsibilities": "Meeting with customers and teammates to get clear requirements. Develop the frameworks and modules of the system.",
+          "technologies": "Angular 2, HTML, CSS, Bootstrap 3"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "startAt": "2014",
+      "endAt": "2018",
+      "certification": "Engineering",
+      "learningIn": "Posts and Telecommunications Institute of Technology, Vietnam",
+      "specializedIn": "Information Technology",
+      "certificateUrl": null
+    }
+  ],
+  "qualitification": [
+    {
+      "startAt": "2018",
+      "endAt": "2019",
+      "certification": "Agile Developers",
+      "learningIn": "Agile Academy, Vietnam",
+      "specializedIn": "Information Technology",
+      "certificateUrl": "assets/images/agile-developers-certificate.jpg"
+    }
+  ]
+}

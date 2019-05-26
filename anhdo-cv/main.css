@@ -1,5 +1,6 @@
-p, li {
-  font-family: 'Open Sans', sans-serif;
+p,
+li {
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
 }
 
@@ -14,8 +15,8 @@ p, li {
 
 .page-wrapper .left {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -28,8 +29,8 @@ p, li {
 
 .page-wrapper .right {
   -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
+  -ms-flex: 2;
+  flex: 2;
 }
 
 .footer {
@@ -57,20 +58,20 @@ p, li {
 @media screen and (max-width: 920px) {
   .page-wrapper .left {
     -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    -ms-flex: 2;
+    flex: 2;
   }
 
   .page-wrapper .right {
     -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
+    -ms-flex: 3;
+    flex: 3;
   }
 }
 
 @media screen and (max-width: 769px) {
   .page-wrapper {
-    display: initial;
+    display: block;
   }
 
   .page-wrapper .left .languages {
@@ -81,7 +82,7 @@ p, li {
   .page-wrapper .left,
   .page-wrapper .right {
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
 
   .page-wrapper .right {

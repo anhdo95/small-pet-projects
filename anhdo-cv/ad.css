@@ -20,6 +20,11 @@ ul {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #009688;
+}
+
 hr {
   border: none;
   border-top: 1px solid #eee;
@@ -53,7 +58,7 @@ hr {
   align-items: center;
 }
 
-.ad-card {
+.ad-box {
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
     0 4px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
@@ -72,17 +77,6 @@ hr {
   font-size: 0.75rem;
   text-align: center;
   border-radius: 0.5rem;
-}
-
-/* ==================
-  WIDTH
-====================*/
-.ad-w-100 {
-  width: 100%;
-}
-
-.ad-w-60 {
-  width: 60%;
 }
 
 /* ==================
