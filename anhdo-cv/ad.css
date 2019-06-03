@@ -82,22 +82,22 @@ hr {
 /* ==================
   BUTTONS
 ====================*/
-.ad-btn {
+.btn {
   display: inline-block;
   padding: 0.5rem 0.75rem;
   font-size: 0.8rem;
 }
 
-.ad-btn:hover {
+.btn:hover {
   opacity: 0.9;
 }
 
-.ad-btn.ad-btn-teal {
+.btn.btn-teal {
   color: #fff;
   background-color: #009688;
 }
 
-.ad-btn.ad-btn-teal .fa {
+.btn.btn-teal .fa {
   color: #fff;
 }
 
