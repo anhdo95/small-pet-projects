@@ -80,6 +80,28 @@ hr {
 }
 
 /* ==================
+  BUTTONS
+====================*/
+.ad-btn {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+.ad-btn:hover {
+  opacity: 0.9;
+}
+
+.ad-btn.ad-btn-teal {
+  color: #fff;
+  background-color: #009688;
+}
+
+.ad-btn.ad-btn-teal .fa {
+  color: #fff;
+}
+
+/* ==================
   BACKGROUND
 ====================*/
 .ad-bg-light-gray {
@@ -118,6 +140,9 @@ hr {
 }
 .ad-mt-0 {
   margin-top: 0;
+}
+.ad-mt-2 {
+  margin-top: 0.5rem;
 }
 .ad-mt-3 {
   margin-top: 1rem;
