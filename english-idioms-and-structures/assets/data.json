@@ -163,5 +163,87 @@
     "examples": [
       "I'd been spreading myself too thin so I resigned as a waiter of the restaurant"
     ]
+  },
+  {
+    "id": 21,
+    "name": "Get on",
+    "meaning": "To continue speaking, often after a short pause",
+    "examples": [
+      "If you get on like this, you won't have any relatives left at all"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Get into something",
+    "meaning": "To become interested in something",
+    "examples": [
+      "You feel shy when you start your speech, but then you get into it"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "S + play + a vital/important role + in something",
+    "meaning": "Something/somebody that plays an important person in something",
+    "examples": [
+      "Making eye contact plays a vital role in demonstrating genuine an interest in the person",
+      "Nutrition plays a tremendously important role in nurturing your physical health"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Needless to say",
+    "meaning": "It doesn't need to be said, what you're about to say is obvious and to be expected in the circumstances",
+    "examples": [
+      "Needless to say, We're on a very tight budget"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Do something over",
+    "meaning": "To do something again",
+    "examples": [
+      "He wants me to do what I've said",
+      "To absorb what you've learned you oughta do them over frequently"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Do away with something",
+    "meaning": "(informal) to stop/avoid doing or having something; to make something end",
+    "examples": [
+      "It's high time the government did away with all of these old tax records"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Break through something",
+    "meaning": "To force yourself through something that's holding you back",
+    "examples": [
+      "I have broken through shyness of myself and become more sociable and amicable"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Phase something out",
+    "meaning": "To stop using something gradually in stages over a period of time",
+    "examples": [
+      "We'd better phase the outdated methods out to create a more efficient one"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Give off something (emit)",
+    "meaning": "To produce something such as a smell, heat, light",
+    "examples": [
+      "The police stopped the van because it was giving off a lot of black smoke"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "S1 + wish + S2 + would/could + V",
+    "meaning": "Wish to do something",
+    "examples": [
+      "I wished I could organise a volunteer group to help out the poor"
+    ]
   }
 ]

@@ -90,3 +90,9 @@ li {
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .page-wrapper .left .personal-info .avatar {
+    width: 50%;
+  }
+}
