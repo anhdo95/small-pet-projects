@@ -245,5 +245,55 @@
     "examples": [
       "I wished I could organise a volunteer group to help out the poor"
     ]
+  },
+  {
+    "id": 30,
+    "name": "Waste your breath",
+    "meaning": "To say something that nobody takes any notice of",
+    "examples": [
+      "They won't listen, so don't waste your breath telling them"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "In the nature of things",
+    "meaning": "In the way that things usually happen",
+    "examples": [
+      "It's in the nature of things, that people who have power don't like losing it",
+      "It's in the nature of things to get married after you find your love"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "S + put (more) effort into + something/doing something",
+    "meaning": "Use much energy/time to do something",
+    "examples": [
+      "You oughta put more effort into your passion",
+      "Single moms have to put more effort into earning money and taking care of babies"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Put up with",
+    "meaning": "To accept somebody/something that is annoying unpleasant, etc. Without complaining",
+    "examples": [
+      "I don't know how he puts up with their constant complaining"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Have a whole of a time",
+    "meaning": "To enjoy yourself very much, to have a great time",
+    "examples": [
+      "Have you had a whole of a time while throwing a party last week?"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Throw a party",
+    "meaning": "To have/organize a party",
+    "examples": [
+      "How could we throw a 10-anniversary party without any support?"
+    ]
   }
 ]
